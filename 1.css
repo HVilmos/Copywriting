@@ -83,6 +83,7 @@ html {
 }
 
 
+
 /*header vége*/
 
 
@@ -138,7 +139,7 @@ html {
 }
 
 .kepp {
-    height: 450px;
+    width: 300px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 
 }
@@ -325,6 +326,7 @@ html {
 .cont {
     margin-left: 100px;
     margin-top: 100px;
+    margin-right: 100px;
 }
 
 .cont h1 {
@@ -339,9 +341,16 @@ html {
 }
 
 
-.emailp {
-    padding: 40px 0;
+
+
+.email {
     font-size: 27px;
+    margin: 40px 0 0 0;
+    padding: 0%;
+}
+
+.email p {
+    font-size: 23px;
 }
 
 /* rolam */
@@ -419,4 +428,94 @@ html {
 .flist li:hover {
     transform: scale(1.1);
     transition: 0.5s;
+}
+
+
+
+@media (min-width:350px) and (max-width:768px) {
+    .li1 {
+        padding: 0%;
+        margin: 5%;
+        font-size: 22px;
+    }
+
+    .kr {
+        font-size: 18px
+    }
+
+    .kep {
+        padding: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .bem {
+        display: contents;
+    }
+
+    .szoveg {
+        padding: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .doboz {
+        display: block;
+
+    }
+
+    .bal,
+    .jobb {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rolam {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .serviceh1,
+    .serviceh3 {
+        margin-bottom: 20px;
+    }
+
+    .service {
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .s1,
+    .s2 {
+        padding: 0%;
+        width: 100%;
+
+    }
+
+    .service h3 {
+        padding-top: 50px;
+    }
+
+    .cont {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .email p {
+        font-size: 16.5px;
+    }
+
+    .doboz {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
 }

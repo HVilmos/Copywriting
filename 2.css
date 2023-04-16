@@ -17,7 +17,7 @@ a {
 
 .nav {
     display: flex;
-    background: linear-gradient(243.4deg, rgb(0, 215, 206) 13%, rgb(0, 132, 255) 98%);
+    background: linear-gradient(to bottom, rgb(0, 132, 255), rgb(0, 215, 206) 80%, white 100%);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     margin-bottom: 70px;
@@ -42,19 +42,20 @@ a {
 .kr {
 
     margin: 10px 0px;
-    font-size: 29px;
+    font-size: 20px;
     font-weight: 500;
     padding: 0px 20px;
 }
 
 .list1 {
     display: flex;
+    text-align: right;
     justify-content: right;
-    text-align: center;
+    width: 100%;
 
 }
 
-.lielem {
+.li1 {
 
     list-style: none;
     padding: 10px;
@@ -65,29 +66,35 @@ a {
 
 
 .list {
-    width: 100%;
+    width: 50%;
+
 }
 
 
 
 
-.lielem:hover {
+.li1:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
 
 .name {
-    width: 350px;
+    width: 50%;
 }
 
 /* header vége*/
 
+.nagydoboz {
+    width: 90%;
+    margin: auto;
+}
+
 .kep1,
 .kep2 {
-    height: 280px;
-    width: 500px;
+    width: 90%;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     border-radius: 10px;
+    margin: auto;
 }
 
 
@@ -99,8 +106,6 @@ a {
 
 .doboz1bal {
     width: 60%;
-    padding-left: 100px;
-
 }
 
 .doboz1jobb {
@@ -207,4 +212,56 @@ a {
 .flist li:hover {
     transform: scale(1.1);
     transition: 0.5s;
+}
+
+@media (min-width:350px) and (max-width:800px) {
+    .list1 {
+        display: block;
+
+    }
+
+    .li1 {
+        margin: 5% 5% 0 0;
+        padding: 0%;
+    }
+
+    .kr {
+        font-size: 18px;
+    }
+
+    .nagydoboz {
+        display: block;
+    }
+
+    .doboz1,
+    .doboz2 {
+        display: block;
+    }
+
+    .doboz1bal,
+    .doboz2bal,
+    .doboz1jobb,
+    .doboz2jobb {
+        width: 80%;
+        margin: auto;
+        padding: 0%;
+    }
+
+    #kepx,
+    #kepy {
+        display: none;
+    }
+
+    .doboz1bal {
+        margin-bottom: 50px;
+    }
+
+    #rewrites {
+        margin-top: 50px;
+    }
+
+    .kep1,
+    .kep2 {
+        width: 100%;
+    }
 }
