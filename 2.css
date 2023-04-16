@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav {
+    display: flex;
+    background: linear-gradient(243.4deg, rgb(0, 215, 206) 13%, rgb(0, 132, 255) 98%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    margin-bottom: 70px;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.kr {
+
+    margin: 10px 0px;
+    font-size: 29px;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+
+.list1 {
+    display: flex;
+    justify-content: right;
+    text-align: center;
+
+}
+
+.lielem {
+
+    list-style: none;
+    padding: 10px;
+    font-size: 22px;
+    margin: 15px;
+}
+
+
+
+.list {
+    width: 100%;
+}
+
+
+
+
+.lielem:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.name {
+    width: 350px;
+}
+
+/* header vége*/
+
+.kep1,
+.kep2 {
+    height: 280px;
+    width: 500px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 10px;
+}
+
+
+
+.doboz1 {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.doboz1bal {
+    width: 60%;
+    padding-left: 100px;
+
+}
+
+.doboz1jobb {
+    width: 40%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.listt {
+    margin: 0 0 20px 20px;
+}
+
+.doboz2 {
+    display: flex;
+}
+
+.doboz2bal {
+    width: 40%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.doboz2jobb {
+    width: 60%;
+    padding-left: 100px;
+
+}
+
+
+
+
+.cim {
+    padding: 20px 20px 20px 0px;
+}
+
+.pszoveg {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.elem {
+    list-style: square;
+    padding: 8px 8px 8px 0;
+    font-size: 20px;
+}
+
+
+
+
+
+/* doboz vége */
+
+.footer {
+    margin-top: 75px;
+    padding-bottom: 40px 0;
+    padding-top: 40px;
+
+}
+
+.icons {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.icons a {
+    padding: 0 20px;
+
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+    color: black;
+
+}
+
+.footer ul li a {
+    text-decoration: none;
+
+}
+
+.footer ul li {
+    display: inline-block;
+    font-size: 22px;
+    margin: 10px;
+
+}
+
+.footer .copyright {
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+
+}
+
+.flist li:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
