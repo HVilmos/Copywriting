@@ -12,40 +12,29 @@ html {
 
 .li {
     text-decoration: none;
-    color: #000;
+    color: white;
 }
 
 .nav {
     display: flex;
-    background: linear-gradient(to bottom, rgb(0, 132, 255), rgb(0, 215, 206) 80%, white 100%);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
     margin-bottom: 70px;
+    color: white;
 }
 
 
 
 
-.szoveg2 {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+
+
+
+.logofull {
+    width: 200px;
 }
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+.name {
+    margin: auto;
 }
-
 
 .kr {
 
@@ -60,6 +49,7 @@ html {
     text-align: right;
     justify-content: right;
     width: 100%;
+    color: white;
 
 }
 
@@ -69,6 +59,7 @@ html {
     padding: 10px;
     font-size: 22px;
     margin: 15px;
+    color: white;
 }
 
 
@@ -121,7 +112,7 @@ html {
 
 .gomb {
     padding: 10px 15px;
-    background-color: rgb(0, 132, 255);
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
     color: white;
     border-radius: 5px;
     font-weight: bold;
@@ -265,7 +256,9 @@ html {
 
 .szoveg2 {
     margin-bottom: 100px;
-    background: radial-gradient(circle at 10% 20%, rgb(147, 230, 241) 0%, rgb(145, 192, 241) 45.5%);
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    color: white;
+
 }
 
 .serviceh3 {
@@ -326,12 +319,13 @@ html {
     margin-top: 30px;
     font-size: 18px;
     padding: 10px 15px;
-    background-color: rgb(0, 132, 255);
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
     color: white;
     border-radius: 5px;
     font-weight: bold;
     border-radius: 10px;
     border: none;
+    opacity: 0.8;
 
 }
 
@@ -341,7 +335,7 @@ html {
 }
 
 .more:hover {
-    opacity: 0.7;
+    opacity: 0.5;
     transition: 0.5s;
 
 }
@@ -444,6 +438,7 @@ html {
 
 .footer ul li a {
     text-decoration: none;
+    color: black;
 
 }
 
@@ -451,6 +446,8 @@ html {
     display: inline-block;
     font-size: 22px;
     margin: 10px;
+    color: black;
+
 
 }
 
@@ -468,11 +465,15 @@ html {
 
 
 
-@media (min-width:350px) and (max-width:768px) {
+@media (min-width:350px) and (max-width:1000px) {
     .li1 {
         padding: 0%;
         margin: 5%;
         font-size: 22px;
+    }
+
+    .logofull {
+        width: 150px;
     }
 
     .kr {
@@ -498,6 +499,12 @@ html {
         width: 80%;
     }
 
+    .szoveg22 {
+        width: 90%;
+        margin: auto;
+
+    }
+
     .doboz,
     .balesjobb {
         display: block;
@@ -515,6 +522,10 @@ html {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .rolamm {
+        text-align: left;
     }
 
     .serviceh1,

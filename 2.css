@@ -10,34 +10,22 @@ html {
 }
 
 
-a {
-    text-decoration: none;
-    color: #000;
-}
+
 
 .nav {
     display: flex;
-    background: linear-gradient(to bottom, rgb(0, 132, 255), rgb(0, 215, 206) 80%, white 100%);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
     margin-bottom: 70px;
+    color: white;
 }
 
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+.logofull {
+    width: 200px;
 }
 
+.name {
+    margin: auto;
+}
 
 .kr {
 
@@ -61,6 +49,7 @@ a {
     padding: 10px;
     font-size: 22px;
     margin: 15px;
+    color: white;
 }
 
 
@@ -70,7 +59,10 @@ a {
 
 }
 
-
+.li {
+    text-decoration: none;
+    color: white;
+}
 
 
 .li1:hover {
@@ -192,6 +184,7 @@ a {
 
 .footer ul li a {
     text-decoration: none;
+    color: black;
 
 }
 
@@ -214,15 +207,27 @@ a {
     transition: 0.5s;
 }
 
-@media (min-width:350px) and (max-width:800px) {
+@media (min-width:350px) and (max-width:1000px) {
     .list1 {
         display: block;
 
     }
 
+    .li {
+        font-size: 20px;
+    }
+
+    .logofull {
+        width: 175px;
+    }
+
     .li1 {
         margin: 5% 5% 0 0;
         padding: 0%;
+    }
+
+    #liutolso {
+        margin-bottom: 15px;
     }
 
     .kr {
